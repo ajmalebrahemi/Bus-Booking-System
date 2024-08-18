@@ -3,7 +3,7 @@
 
 This repository contains the frontend code for the Bus Booking System, a web application designed to facilitate online bus ticket reservations. The frontend is built using React.
 
-## Features
+# Features
 
 - **User Interface**: Clean and responsive user interface for easy navigation.
 - **Bus Search**: Users can search for available buses based on routes and dates.
@@ -11,12 +11,12 @@ This repository contains the frontend code for the Bus Booking System, a web app
 - **Payment Integration**: Users can securely pay for tickets.
 - **Admin Panel**: Admins can manage buses, routes, and bookings.
 
-## Prerequisites
+# Prerequisites
 
 - Node.js
 - npm (Node Package Manager)
 
-## Installation
+# Installation
 
 1. Clone the repository:
    ```bash
