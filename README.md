@@ -1,4 +1,3 @@
-```markdown
 # Bus Booking System Frontend
 
 This repository contains the frontend code for the Bus Booking System, a web application designed to facilitate online bus ticket reservations. The frontend is built using React.
