@@ -1,0 +1,16 @@
+.topRoute {
+    height: 100%;
+    
+  }
+  
+  .topRoute2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .topRoute1 {
+    height: 220px; /* ارتفاع ثابت برای تصویر */
+    object-fit: cover; /* حفظ تناسب تصویر */
+  }
+  

@@ -1,0 +1,117 @@
+/* فایل App.css */
+body {
+  background-color: #ffffff;
+  color: #A2E53F;
+  /* background-image: url('https://s1.cdn.autoevolution.com/images/news/gallery/mercedes-benz-modernizes-coach-lineup-with-all-new-tourismo-rhd_8.jpg'); مسیر تصویر پس‌زمینه */
+  /* background-size: cover; تصویر کل صفحه را می‌پوشاند */
+  /* background-repeat: no-repeat; از تکرار تصویر جلوگیری می‌کند */
+  /* background-attachment: fixed; تصویر ثابت می‌ماند حتی زمانی که صفحه اسکرول می‌شود */
+}
+#topbar{
+  background-color: #000000;
+}
+
+
+
+/* Navagation bar styles */
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+  }
+  .navbar-brand{
+    color: white;
+  }
+.navbar-brand:hover{
+    color: white;
+  }
+  
+  .container{
+    padding-top: 70px;
+  }
+
+
+  .card-body{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    background-color: #ffffff;
+    border-radius:0.3rem;
+  }
+
+  .card-body:hover{
+    background-color: #daffc8;
+  
+    border-radius: 0.35rem;
+    transform: scale(1.019);
+  }
+
+  .content {
+    position: absolute;
+    top: 35%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: #A2E53F;
+    text-align: left;
+  }
+  
+  .headingOne {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .slidParagraph {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: #000000;
+  }
+  /* @media screen and (max-width: 200px) {
+    .headingOne {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+    .slidParagraph {
+      font-size: 1.3rem;
+      text-align: center;
+      
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .headingOne {
+      font-size: 4.5rem;
+      color: #A2E53F;
+      font-style: oblique;
+    }
+    .slidParagraph {
+      font-size: 2.3rem;
+      
+    }
+    .content {
+      text-align: start;
+    }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1240px) {
+    .content {
+      left: 17%;
+      top: 25%;
+     
+    }
+  } */
+  
+
+  /* App.css */
+.login-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* App.css */
+.modal {
+  display: none;
+}
+
+.modal.show {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}

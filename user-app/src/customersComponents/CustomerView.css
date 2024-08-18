@@ -1,0 +1,16 @@
+/* Combined rotate and scale effect for carousel items */
+.carousel-item {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out; /* Smooth transition for transform and opacity */
+  }
+  
+  .carousel-item-next,
+  .carousel-item-prev {
+    transform: rotateY(5deg) scale(0.9); /* Rotate and scale the items that are entering or leaving */
+    opacity: 1.5; /* Reduce opacity for entering/leaving items */
+  }
+  
+  .carousel-item.active {
+    transform: rotateY(0) scale(1); /* No rotation and full scale for the active item */
+    opacity: 1; /* Full opacity for the active item */
+  }
+  
